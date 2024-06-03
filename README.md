@@ -1,6 +1,6 @@
-# Archetype: Rust Axum Modular Config
+# Archetype: Rust Axum Modular Configurable Archetype
 
-A Rust Axum Project with a CLI and Config system
+A modular Rust Axum project with a CLI and Config system
 
 - Strong adherence to [Twelve Factor](https://12factor.net/) principles
   - Layered, hierarchical configuration using [config](https://github.com/mehcode/config-rs) 
