@@ -1,0 +1,17 @@
+[package]
+name = "{{ project_name }}_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+{{ project_name }}_core = { path = "../{{ project_name }}_core" }
+
+anyhow = "1.0"
+axum = "0.7.5"
+serde = {version = "1.0", features = ["serde_derive"] }
+tokio = {version = "1", features = ["rt-multi-thread", "time", "macros", "net"]}
+tokio-stream = "0.1"
+tracing = "0.1"
+tracing-attributes = "0.1"

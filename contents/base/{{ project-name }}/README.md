@@ -1,0 +1,32 @@
+{{ project-title }}
+============
+
+This project's layers are contained within the following modules. Each layer may be used and tested independently, whether
+you'd like to embed the lowest persistence layer in an ETL application, embed the middle core layer in an application 
+composed of multiple business domains, or embed the highest server layer in a integration test. 
+
+* [{{ project-title }}: Bin](crates/{{ project_name }}_bin/README.md) - CLI, Configuration Loading, Operational Controls
+* [{{ project-title }}: Core](crates/{{ project_name }}_core/README.md) - Core business logic implementing the GraphQL API
+* [{{ project-title }}: Server](crates/{{ project_name }}_server/README.md) - Exposes the Core as a network server
+
+## Building
+
+To build the project locally, check the [Build Requirements](#build-requirements) below for instructions on installing
+Rust, PostgreSQL, and Docker.
+
+Rust projects are built using the `cargo` package manager.
+
+    cargo build
+
+### Build Requirements
+
+In order to build the service on your local machine, you will need the following:
+
+#### The Rust Toolchain
+
+Rust can be installed and managed through [Rustup](https://rustup.rs/).
+
+#### Docker
+
+Docker is used for executing most integration tests, and can optionally be used to start this service with an ephemeral
+database. See the [Docker](https://www.docker.com/get-started) website to install it.
