@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use url::Url;
 
 #[derive(Clone, Debug, Deserialize, Serialize)]
 pub struct CoreSettings {
