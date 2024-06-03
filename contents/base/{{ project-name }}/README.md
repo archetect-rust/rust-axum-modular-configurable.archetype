@@ -6,7 +6,7 @@ you'd like to embed the lowest persistence layer in an ETL application, embed th
 composed of multiple business domains, or embed the highest server layer in a integration test. 
 
 * [{{ project-title }}: Bin](crates/{{ project_name }}_bin/README.md) - CLI, Configuration Loading, Operational Controls
-* [{{ project-title }}: Core](crates/{{ project_name }}_core/README.md) - Core business logic implementing the GraphQL API
+* [{{ project-title }}: Core](crates/{{ project_name }}_core/README.md) - Core business logic
 * [{{ project-title }}: Server](crates/{{ project_name }}_server/README.md) - Exposes the Core as a network server
 
 ## Building

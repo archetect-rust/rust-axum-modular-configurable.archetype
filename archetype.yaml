@@ -1,19 +1,11 @@
 ---
-description: "A Rust GraphQL-based Microservice"
+description: "A Rust Axum Project with a CLI and Config System"
 authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
 languages: ["Rust"]
-frameworks: ["async-graphql", "seaorm", "tonic"]
-tags: ["Service", "GraphQL", "gRPC"]
+frameworks: ["Axum"]
+tags: ["Axum"]
 
 requires:
   archetect: 2.0.0-ALPHA.15
-
-components:
-  model-casing: https://github.com/archetect/archetect-model-casing.archetype.git
-  generate-protobuf: https://github.com/archetect/archetect-protobuf-generator.archetype.git
-
-templating:
-  undefined_behavior: Chainable
-
 
 
