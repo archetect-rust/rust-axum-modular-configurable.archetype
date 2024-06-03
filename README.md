@@ -8,9 +8,7 @@ A modular Rust Axum project with a CLI and Config system
 - Completely asynchronous, powered by [Tokio](https://tokio.rs/)
 - Modular, with individually usable and tested layers:
   - Core: business layer
-- Additional build and development tooling through:
-  - [xtask](https://github.com/matklad/cargo-xtask/) pattern
-  - [just](https://github.com/casey/just) command runner
+  - Server: network layer
 
 
 To generate a project from this archetype using [Archetect](https://github.com/archetect/archetect):
